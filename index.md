@@ -4,6 +4,10 @@
 
 layout: default
 ---
-![avatar](/assets/pics/smallAvatar.png)
+![porträtt](/assets/pics/anna.jpg)
 
-#Hello World
+
+## *"Kunskapen är en skattkista, övning är nyckeln till den."*
+*-Thomas Fuller*
+
+Denna webbplats är framtagen för att publicera och redovisa uppgifter som jag som student vid [Linnéuniversitetet](https://www.lnu.se/) utfört.

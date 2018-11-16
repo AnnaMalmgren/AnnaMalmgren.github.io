@@ -19,7 +19,7 @@ email: am223rj@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Webbplats för publikation av mina slutförda uppgifter för Linnéuniversitetet, program webbprogrammerare.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://exams.com # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  AnnaMalmgren
 
 # Build settings
@@ -31,6 +31,9 @@ plugins:
 sass: 
   sass_dir: _sass
   style: compressed 
+
+disqus:
+  shortname: admin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

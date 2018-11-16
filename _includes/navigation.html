@@ -12,7 +12,9 @@
         <div class="trigger">
           {%- for page in site.pages -%}
             {%- if page.title -%}
-            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+            <ul class="nav-list">
+                <li><a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
+            </ul>
             {%- endif -%}
           {%- endfor -%}
         </div>
