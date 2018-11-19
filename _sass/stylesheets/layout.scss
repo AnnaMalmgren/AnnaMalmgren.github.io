@@ -4,7 +4,6 @@
  .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  max-height: $spacing-unit * 4;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -17,13 +16,17 @@
   letter-spacing: -1px;
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $headers;
+  }
+  &:hover {
+    color: $rusty;
+    text-decoration: underline;
   }
 }
 
 .site-nav {
   line-height: $base-line-height * $base-font-size * 2.25;
-  margin-right: 4em;
+  margin-right: 2em;
 
   .nav-trigger {
       display: none;
@@ -42,10 +45,10 @@
   .page-link {
     color: $brand-color;
     line-height: $base-line-height;
-    font-size: 1.3em;
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+    font-size: 1.4em;
+    &:hover {
+      color: $rusty;
+      text-decoration: underline;
     }
   }
 
@@ -57,7 +60,7 @@
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
-
+ 
     label[for="nav-trigger"] {
       display: block;
       float: right;
@@ -65,6 +68,7 @@
       height: 36px;
       z-index: 2;
       cursor: pointer;
+      clear: both;
     }
 
     .menu-icon {
@@ -88,7 +92,11 @@
 
     input:checked ~ .trigger {
       display: block;
-      padding-bottom: 5px;
+    }
+
+    .nav-list {
+      display: block;
+      float: none;
     }
 
     .page-link {
@@ -179,6 +187,7 @@
 /**
  * Page content
  */
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
@@ -190,7 +199,7 @@
 
   img {
     float: right;
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow: 4px 4px 6px;
     margin: $spacing-unit / 2;
   }
@@ -199,6 +208,25 @@
 .page-heading {
   @include relative-font-size(2);
   color: $headers;
+}
+
+.sidebar {
+  float: right;
+  padding: 1em;
+  width: 25%;
+  border: 2px solid $grey-color-light;
+  border-radius: 5%;
+  background-color: lighten($rusty, 30%);
+  Img {
+    margin: 1em auto;
+    border-radius: 5%;
+    box-shadow: none;
+  }
+
+  @include media-query($on-phone) {
+    float: none;
+    width: auto;
+  }
 }
 
 .post-list-heading {
@@ -227,6 +255,11 @@
   @include relative-font-size(1.5);
 }
 
+#aboutImg {
+  border-radius: 0;
+  box-shadow: none;
+}
+
 
 /**
  * Posts
@@ -238,7 +271,6 @@
 .post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
-  line-height: 1;
   color: $headers;
 
   @include media-query($on-laptop) {

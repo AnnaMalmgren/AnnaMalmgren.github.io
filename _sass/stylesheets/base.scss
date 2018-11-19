@@ -112,7 +112,7 @@
    }
  
    &:hover {
-     color: $text-color;
+     color: $rusty;
      text-decoration: underline;
    }
  
@@ -190,6 +190,13 @@
      padding-right: $spacing-unit / 2;
      padding-left: $spacing-unit / 2;
    }
+
+   @include media-query($on-phone) {
+    #rose {
+      display: none;
+    }
+  }
+  
  }
  
  
