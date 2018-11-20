@@ -1,13 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 <img src="/assets/pics/storsjon2.jpg" alt="storsjön" id="aboutImg">
 
 ## Inledande om mig
 
-Jag är 30 år gammal och kommer ursprungligen från Lund men bor nu med min sambo ute på landet i Hörby. Jag har alltid haft en önskan om att flytta uppåt i landet då jag spenderat mycket tid i Jämtland under min barndom. Drömmen hade varit att bo någonstans vid storjön med utsikt över fjällen. 
+Jag är 30 år gammal och kommer ursprungligen från Lund men bor nu med min sambo ute på landet i Hörby. Jag har alltid haft en önskan om att flytta uppåt i landet då jag spenderat mycket tid i Jämtland under min barndom. Drömmen hade varit att bo någonstans vid storsjön med utsikt över fjällen. 
 Jag har alltid varit lite impulsiv och ger mig nu på webbprogrammerare programmet på distans, vilket är en utmaning då jag helt saknar erfarenhet inom det ämnet sen tidigare. Förhoppningsvis med lite tur och mycket arbete så ska det sluta bra. 
 
 ![två hundar](/assets/pics/lunaOchRex.jpg) 
