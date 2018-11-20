@@ -9,11 +9,9 @@
  }
  
  
- 
  /**
   * Basic styling
   */
-
  body {
    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
    color: $text-color;
@@ -30,7 +28,6 @@
  }
  
  
- 
  /**
   * Set `margin-bottom` to maintain vertical rhythm
   */
@@ -42,14 +39,12 @@
  }
  
  
- 
  /**
   * `main` element
   */
  main {
    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
  }
- 
  
  
  /**
@@ -59,7 +54,6 @@
    max-width: 100%;
    vertical-align: middle;
  }
- 
  
  
  /**
@@ -72,7 +66,6 @@
  figcaption {
    font-size: $small-font-size;
  }
- 
  
  
  /**
@@ -90,14 +83,12 @@
  }
  
  
- 
  /**
   * Headings
   */
  h1, h2, h3, h4, h5, h6 {
    font-weight: $base-font-weight;
  }
- 
  
  
  /**
@@ -140,10 +131,9 @@
    > :last-child {
      margin-bottom: 0;
    }
- }
+ } 
  
- 
- 
+
  /**
   * Code formatting
   */
@@ -169,7 +159,6 @@
      padding-left: 0;
    }
  }
- 
  
  
  /**
@@ -200,7 +189,6 @@
  }
  
  
- 
  /**
   * Clearfix
   */
@@ -209,7 +197,6 @@
    display: table;
    clear: both;
  }
- 
  
  
  /**
@@ -230,7 +217,6 @@
      padding-top: 5px;
    }
  }
- 
  
  
  /**

@@ -1,9 +1,9 @@
 /* TEAM */
-Anna Malmgren 
-From: Sweden
+Developer: Anna Malmgren 
+From: Lund, Sweden
 
 /* Site */
-Last update: 2018/11/15
+Last update: 2018/11/19
 Language: svenska
-Doctype: HTML5
 IDE: Visual Studio Code
+Components: Jekyll, Sass.
