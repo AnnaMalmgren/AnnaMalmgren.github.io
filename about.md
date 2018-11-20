@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 <img src="/assets/pics/storsjon2.jpg" alt="storsjön" id="aboutImg">
 

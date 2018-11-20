@@ -3,6 +3,7 @@ layout: post
 title: Examination 1 del 2
 comments: true
 date: 2018-11-18 14.03 +0100
+permalink: /:year/:month/:day/:title/
 ---
 
 ## robots.txt

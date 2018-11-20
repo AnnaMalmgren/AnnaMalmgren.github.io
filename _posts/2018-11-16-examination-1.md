@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Examination 1 del 1
 date: 2018-11-16 23:05 +0100
+permalink: /:year/:month/:day/:title/
 ---
 
 ## CSS Preprocessors
